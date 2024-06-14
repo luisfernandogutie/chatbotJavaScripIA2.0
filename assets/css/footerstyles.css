@@ -1,0 +1,7 @@
+/* Estilo para el footer */
+footer {
+    background-color: #1b1b1b; /* Fondo gris oscuro */
+    color: #ffffff; /* Texto blanco */
+    padding: 20px 0; /* Espaciado superior e inferior */
+    text-align:center; /* Alinear el texto al centro */
+}

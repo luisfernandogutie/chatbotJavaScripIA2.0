@@ -1,0 +1,70 @@
+.carousel-item {
+    position: relative;
+}
+
+.carousel-item::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.144); /* Ajusta la opacidad según sea necesario */
+    z-index: 1;
+}
+
+.carousel-caption {
+    position: absolute;
+    z-index: 2;
+    text-align: left;
+    left: 20px; /* Separación del borde izquierdo */
+    right: auto;
+    bottom: auto;
+    top: 90%; /* Centrado vertical */
+    transform: translateY(-50%);
+    padding: 0; /* Elimina el padding predeterminado */
+}
+
+.carousel-caption h5,
+.carousel-caption p {
+    margin: 0;
+    padding: 5px 10px; 
+    background-color: rgba(0, 0, 0, 0.5); /* Fondo semi-transparente para mejor legibilidad */
+    color: #ffffff;
+    font-weight: bold; /* Hace el texto en negrita */
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5); /* Sombra del texto */
+}
+
+.carousel-caption h5 {
+    font-size: 2.1rem; /* Tamaño de fuente para h5 */
+}
+
+.carousel-caption p {
+    font-size: 1.5rem; /* Tamaño de fuente para p */
+}
+
+
+/*DISEÑO MISION VISION */
+/* Estilos generales */
+
+
+/* Contenedor principal */
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+/* Sección de imagen */
+.image-container img {
+    background-color: transparent; /* Asegura que no haya fondo gris */
+    border: none; /* Elimina cualquier borde predeterminado */
+    box-shadow: none; /* Elimina cualquier sombra que pueda estar presente */
+}
+
+
+
+/* Contenedor de contenido */
+.content-container {
+    padding: 20px;
+}

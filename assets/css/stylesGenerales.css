@@ -1,0 +1,36 @@
+body {
+    font-family: Arial, sans-serif;
+    color: #a73939;
+
+}
+
+/* Estilos para h2 */
+h2 {
+    font-size: 2.5rem; /* Tamaño grande para el título */
+    font-weight: bold;
+    color: #003366; /* Color del título */
+    margin-bottom: 20px; /* Espacio debajo del título */
+}
+h3 {
+    font-size: 2.6rem; /* Tamaño grande para el título */
+    font-weight: bold;
+    color: #003366; /* Color del título */
+    margin-bottom: 20px; /* Espacio debajo del título */
+    text-align:center; /* Alinear el texto al centro */
+}
+
+/* Estilos para p */
+p {
+    font-size: 1.25rem; /* Tamaño más grande para los párrafos */
+    line-height: 1.6; /* Espacio entre líneas */
+    color: #555; /* Color del texto del párrafo */
+    margin-bottom: 20px; /* Espacio debajo del párrafo */
+}
+/* Estilos específicos para el párrafo especial */
+.special-paragraph {
+    font-size: 1.35rem; /* Tamaño más grande solo para este párrafo */
+    color: #555; /* Color específico para este párrafo */
+    font-weight: bold; /* Negrita para resaltar */
+    padding: 10px; /* Relleno alrededor del texto */
+    border-radius: 5px; /* Bordes redondeados */
+}

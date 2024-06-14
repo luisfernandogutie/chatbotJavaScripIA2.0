@@ -1,0 +1,91 @@
+/* Estilo para el fondo de la navbar */
+.navbar {
+    background-color: rgba(17, 204, 95, 0.5); /* Fondo semi-transparente con color específico */
+    padding: 10px 0; /* Espaciado superior e inferior */
+    transition: top 0.3s, background-color 0.3s;
+    position: fixed;
+    width: 100%;
+    z-index: 1000;
+}
+
+.navbar.bg-body-tertiary {
+    background-color: rgba(18, 18, 19, 0.521) !important; /* Cambia el valor del color de fondo */
+    font-size: 19px;
+    font-weight: bold; /* Hace el texto en negrita */
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5); /* Sombra del texto */
+}
+
+
+/* Estilo cuando la navbar está oculta */
+.navbar.hidden {
+    top: -100px; /* Ajusta según la altura de tu navbar */
+}
+
+/* Estilo para los enlaces de la navbar */
+.navbar-nav .nav-link {
+    color: #f6f6f7; /* Color de texto púrpura */
+    padding: 10px 15px; /* Espaciado interno de los enlaces */
+}
+
+.navbar-nav .nav-link:hover {
+    background-color: #5c585b00; /* Color de fondo al pasar el cursor */
+    color: #eb1958; /* Color de texto al pasar el cursor */
+    border-radius: 5px; /* Bordes redondeados */
+}
+
+/* Estilo para el logotipo */
+.navbar-brand {
+    color: #ffffff; /* Color del texto del logotipo */
+    font-size: 29px; /* Tamaño de fuente del logotipo */
+    font-weight: bold; /* Hace el texto en negrita */
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5); /* Sombra del texto */
+}
+
+.navbar-brand:hover {
+    color: #eb1958; /* Color del texto del logotipo al pasar el cursor */
+}
+
+/* Estilo para el botón de búsqueda */
+.form-control {
+    border-radius: 5px; /* Bordes redondeados */
+    border-color: #4e1a78; /* Color del borde */
+    color: #4e1a78; /* Color del texto */
+}
+
+.form-control::placeholder {
+    color: #4e1a78; /* Color del texto del placeholder */
+}
+
+.btn-outline-success {
+    border-color: #fefcff; /* Color del borde */
+    color: #ffffff; /* Color del texto */
+}
+
+.btn-outline-success:hover {
+    background-color: #4e1a78; /* Color de fondo al pasar el cursor */
+    color: white; /* Color del texto al pasar el cursor */
+}
+
+/* Estilo para el botón de hamburguesa en móviles */
+.navbar-toggler {
+    border-color: #4e1a78; /* Color del borde */
+}
+
+.navbar-toggler-icon {
+    background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 30 30' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='%234e1a78' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 7h22M4 15h22M4 23h22'/%3E%3C/svg%3E");
+}
+
+/* Estilo para el menú desplegable */
+.nav-item .dropdown-menu {
+    background-color: white; /* Fondo blanco */
+    border: none;
+}
+
+.dropdown-item {
+    color: #4e1a78; /* Color de texto púrpura */
+}
+
+.dropdown-item:hover {
+    background-color: #f1f1f1; /* Color de fondo al pasar el cursor */
+    color: #4e1a78; /* Color de texto al pasar el cursor */
+}

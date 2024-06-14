@@ -1,0 +1,8 @@
+#carouselExampleCaptions {
+    height: 100vh; /* Establece la altura del carrusel al 100% de la altura de la ventana */
+}
+
+.carousel-item img {
+    object-fit: cover; /* Hace que las imágenes cubran completamente el área del carrusel */
+    height: 100vh; /* Establece la altura de las imágenes al 100% de la altura de la ventana */
+}
